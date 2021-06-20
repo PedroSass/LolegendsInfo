@@ -1,0 +1,48 @@
+@font-face {
+   font-family: 'lolboldfont';
+   src: local('lolboldfont'), url(../../fonts/Friz\ Quadrata\ Bold.otf) format('woff');
+ }
+
+ @font-face {
+   font-family: 'lolitalicfont';
+   src: local('lolitalicfont'), url(../../fonts/Friz\ Quadrata\ Italic.ttf) format('woff');
+ }
+
+ @font-face {
+   font-family: 'lolimediumfont';
+   src: local('lolimediumfont'), url(../../fonts/Friz\ Quadrata\ Std\ Medium.otf) format('woff');
+ }
+
+.champ-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 210px;
+    border-radius: 80%;
+    border: 2px solid gold;
+    cursor: pointer;
+ }
+
+ .champ-desc {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+ }
+
+h2 {
+   font-family: 'lolimediumfont';
+}
+
+ h5 {
+    font-family: 'lolitalicfont';
+ }
+ 
+ .vertical-timeline-element-date {
+   font-family: 'lolboldfont';
+   color: green;
+ }
+
+
+
